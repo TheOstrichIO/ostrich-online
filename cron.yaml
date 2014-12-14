@@ -1,0 +1,10 @@
+cron:
+- description: Hourly Twitter stats fetch
+  url: /fetch/twitter
+  schedule: every 1 hours
+- description: Hourly Facebook stats fetch
+  url: /fetch/facebook
+  schedule: every 1 hours
+- description: Hourly Google Plus stats fetch
+  url: /fetch/gplus
+  schedule: every 1 hours

@@ -1,0 +1,15 @@
+application: ostrich-online
+version: 0-1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+libraries:
+- name: lxml
+  version: "latest"
+
+handlers:
+
+- url: /.*
+  script: main.APP
+  login: admin
